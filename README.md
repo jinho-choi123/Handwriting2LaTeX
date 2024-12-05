@@ -18,4 +18,10 @@ For Image, we are going to render the InkML format into (3, IMG_SIZE, IMG_SIZE).
 
 For Token sequence, we apply data preprocessing to reduce the sequence length of ink-pixels, and normalize the data.
 
+### Getting Started - Dataset installation
+Use `data-install.sh` script. This will take 5~10 minutes to download+decompress the dataset.
+```sh
+$ ./data-install.sh
 
+# check the installed data in data/mathwriting-2024 directory
+```
