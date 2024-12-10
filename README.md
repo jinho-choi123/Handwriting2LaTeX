@@ -18,7 +18,9 @@ For Image, we are going to render the InkML format into (3, IMG_SIZE, IMG_SIZE).
 
 For Token sequence, we apply data preprocessing to reduce the sequence length of ink-pixels, and normalize the data.
 
-In this project, we are going to use backbone PaLI model from [here](https://github.com/kyegomez/PALI/tree/main)
+For Visual component, we are going to use [ViT in huggingface](https://huggingface.co/docs/transformers/en/model_doc/vit#transformers.ViTConfig).
+
+For Language component, we are going to use [mT5 in huggingface](https://huggingface.co/docs/transformers/v4.47.1/en/model_doc/mt5#mt5)
 
 ### Getting Started - Installing dependencies
 Please use [uv-python](https://github.com/astral-sh/uv).
