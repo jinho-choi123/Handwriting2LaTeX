@@ -1,4 +1,4 @@
-## LaTex Generator using PaLI model
+### LaTex Generator using PaLI model
 
 Please read this paper to fully understand this project.
 [Key Paper](https://arxiv.org/abs/2402.15307)
