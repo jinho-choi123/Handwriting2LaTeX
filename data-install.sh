@@ -4,7 +4,7 @@ DATA_DIR="data";
 ZIPFILE_NAME="mathwriting.tgz";
 ZIPFILE_PATH="$DATA_DIR/$ZIPFILE_NAME";
 
-UNZIPDIR_NAME="mathwriting-2024";
+UNZIPDIR_NAME="mathwriting-2024-excerpt";
 UNZIPDIR_PATH="$DATA_DIR/$UNZIPDIR_NAME"
 
 # make data directory if not exists
@@ -15,7 +15,7 @@ if [ -e $ZIPFILE_PATH ]; then
 	echo "$ZIPFILE_PATH - Already exists...";
 else
 	echo "$ZIPFILE_PATH - Doesn't exists. Starting download...";
-	wget -O $ZIPFILE_PATH https://storage.googleapis.com/mathwriting_data/mathwriting-2024.tgz;
+	wget -O $ZIPFILE_PATH https://storage.googleapis.com/mathwriting_data/mathwriting-2024-excerpt.tgz;
 fi
 
 # check if unzip directory exists
